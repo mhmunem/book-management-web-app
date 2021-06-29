@@ -1,0 +1,176 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Earth Moon",
+      "description": "This is the Moon 1 description. This is the coolest moon of Earth",
+      "imgUrl": "assets/330px-FullMoon2010.jpg",
+      "price": 599
+    },
+    {
+      "id": 2,
+      "name": "Mercury Moon",
+      "description": "This is the Moon 2 description. This is the coolest moon of Mercury",
+      "imgUrl": "assets/330px-FullMoon2010.jpg",
+      "price": 199
+    },
+    {
+      "id": 3,
+      "name": "Venus Moon",
+      "description": "This is the Moon 3 description. This is the coolest moon of Venus",
+      "imgUrl": "assets/330px-FullMoon2010.jpg",
+      "price": 399
+    },
+    {
+      "id": 4,
+      "name": "Mars Moon",
+      "description": "This is the Moon 4 description. This is the coolest moon of Mars",
+      "imgUrl": "assets/330px-FullMoon2010.jpg",
+      "price": 499
+    },
+    {
+      "id": 5,
+      "name": "Jupiter Moon",
+      "description": "This is the Moon 5 description. This is the coolest moon of Jupiter",
+      "imgUrl": "assets/330px-FullMoon2010.jpg",
+      "price": 299
+    },
+    {
+      "id": 6,
+      "name": "Saturn Moon",
+      "description": "This is the Moon 6 description. This is the coolest moon of Saturn",
+      "imgUrl": "assets/330px-FullMoon2010.jpg",
+      "price": 199
+    },
+    {
+      "id": 7,
+      "name": "Uranus  Moon",
+      "description": "This is the Moon 7 description. This is the coolest moon of Uranus",
+      "imgUrl": "assets/330px-FullMoon2010.jpg",
+      "price": 99
+    },
+    {
+      "id": 8,
+      "name": "Neptune Moon",
+      "description": "This is the Moon 8 description. This is the coolest moon of Neptune",
+      "imgUrl": "assets/330px-FullMoon2010.jpg",
+      "price": 49
+    },
+    {
+      "id": 9,
+      "name": "Pluto Moon",
+      "description": "This is the Moon 9 description. This is the coolest moon of Pluto",
+      "imgUrl": "assets/330px-FullMoon2010.jpg",
+      "price": 9
+    }
+  ],
+  "cart": [
+    {
+      "product": {
+        "id": 1,
+        "name": "Earth Moon",
+        "description": "This is the Moon 1 description. This is the coolest moon of Earth",
+        "imgUrl": "assets/330px-FullMoon2010.jpg",
+        "price": 599
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Mercury Moon",
+        "description": "This is the Moon 2 description. This is the coolest moon of Mercury",
+        "imgUrl": "assets/330px-FullMoon2010.jpg",
+        "price": 199
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Mercury Moon",
+        "description": "This is the Moon 2 description. This is the coolest moon of Mercury",
+        "imgUrl": "assets/330px-FullMoon2010.jpg",
+        "price": 199
+      },
+      "id": 3
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Earth Moon",
+        "description": "This is the Moon 1 description. This is the coolest moon of Earth",
+        "imgUrl": "assets/330px-FullMoon2010.jpg",
+        "price": 599
+      },
+      "id": 4
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Mercury Moon",
+        "description": "This is the Moon 2 description. This is the coolest moon of Mercury",
+        "imgUrl": "assets/330px-FullMoon2010.jpg",
+        "price": 199
+      },
+      "id": 5
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Earth Moon",
+        "description": "This is the Moon 1 description. This is the coolest moon of Earth",
+        "imgUrl": "assets/330px-FullMoon2010.jpg",
+        "price": 599
+      },
+      "id": 6
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Mercury Moon",
+        "description": "This is the Moon 2 description. This is the coolest moon of Mercury",
+        "imgUrl": "assets/330px-FullMoon2010.jpg",
+        "price": 199
+      },
+      "id": 7
+    },
+    {
+      "product": {
+        "id": 6,
+        "name": "Saturn Moon",
+        "description": "This is the Moon 6 description. This is the coolest moon of Saturn",
+        "imgUrl": "assets/330px-FullMoon2010.jpg",
+        "price": 199
+      },
+      "id": 8
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Venus Moon",
+        "description": "This is the Moon 3 description. This is the coolest moon of Venus",
+        "imgUrl": "assets/330px-FullMoon2010.jpg",
+        "price": 399
+      },
+      "id": 9
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

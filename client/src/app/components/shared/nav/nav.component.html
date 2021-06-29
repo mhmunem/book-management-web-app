@@ -1,0 +1,26 @@
+<div class="container py-3">
+  <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+    <a [routerLink]="['/shop']" class="d-flex align-items-center text-dark text-decoration-none">
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" fill="none" stroke="currentColor"
+        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="me-2" role="img" viewBox="0 0 24 24">
+        <title>Moon Store</title>
+        <circle cx="12" cy="12" r="10" />
+        <path
+          d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+      </svg>
+
+      <app-header></app-header>
+    </a>
+
+    <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto ">
+      <a class="me-3 py-2 text-dark text-decoration-none" [routerLink]="['/shop']">Shop</a>
+      <a class="me-3 py-2 text-dark text-decoration-none" href="#">Enterprise</a>
+      <a class="me-3 py-2 text-dark text-decoration-none" href="#">Support</a>
+      <a class="me-3 py-2 text-dark text-decoration-none" href="#">Pricing</a>
+    </nav>
+    <div class="text-end">
+      <button type="button" class="btn btn-light text-dark me-2" [routerLink]="['/login']">Login</button>
+      <button type="button" class="btn btn-primary" [routerLink]="['/register']">Sign-up</button>
+    </div>
+  </div>
+</div>

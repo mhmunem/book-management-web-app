@@ -1,0 +1,55 @@
+<main class="form-signin">
+
+  <div style="text-align:center; padding: 2rem;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="none" stroke="currentColor"
+      stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="me-2" role="img" viewBox="0 0 24 24"
+      preserveAspectRatio="xMidYMin">
+      <title>Moon Store</title>
+      <circle cx="12" cy="12" r="10" />
+      <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+    </svg>
+    <div class="h3 mb-3 fw-normal text-center"><strong>{{ title }}</strong></div>
+  </div>
+
+  <h2 class="h3 mb-3 fw-normal text-center">Log In</h2>
+
+
+  <form [formGroup]="registerForm" (ngSubmit)="register()">
+
+    <div class="row g-3">
+
+      <div class="col-12">
+        <label for="email" class="form-label">Email </label>
+        <input type="email" class="form-control" formControlName="email"
+          [ngClass]="{ 'is-invalid': registerForm.get('email')?.touched && registerForm.get('email')?.invalid }"
+          placeholder="you@example.com" required />
+
+        <span class="invalid-feedback">
+          <span *ngIf="registerForm.get('email')?.hasError('required')">Email can't be blank.</span>
+          <span *ngIf="registerForm.get('email')?.hasError('email')">Please enter a valid Email to sign up.</span>
+        </span>
+      </div>
+
+      <div class="col-12">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control"
+          [ngClass]="{ 'is-invalid': registerForm.get('password')?.touched && registerForm.get('password')?.invalid }"
+          formControlName="password" id="password" required>
+
+        <span class="invalid-feedback">
+          <span *ngIf="registerForm.get('password')?.hasError('required')">Password can't be blank.</span>
+          <span *ngIf="registerForm.get('password')?.hasError('minlength')">Password must contain minimum 4
+            characters</span>
+        </span>
+
+      </div>
+
+      <button class="w-100 btn btn-lg btn-primary" type="submit" [disabled]="registerForm.invalid">Sign up</button>
+    </div>
+  </form>
+</main>
+
+
+<p>
+  <a [routerLink]="['/register']">Register</a>
+</p>

@@ -154,6 +154,26 @@
         "price": 399
       },
       "id": 9
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Earth Moon",
+        "description": "This is the Moon 1 description. This is the coolest moon of Earth",
+        "imgUrl": "assets/330px-FullMoon2010.jpg",
+        "price": 599
+      },
+      "id": 10
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Mercury Moon",
+        "description": "This is the Moon 2 description. This is the coolest moon of Mercury",
+        "imgUrl": "assets/330px-FullMoon2010.jpg",
+        "price": 199
+      },
+      "id": 11
     }
   ],
   "posts": [

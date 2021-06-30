@@ -1,24 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms'
 
-/**
- *
- * @param form
- */
-
-function passwordsMatchValidator(form: { get: (arg0: string) => any; }) {
-  const password = form.get('password')
-  const confirmPassword = form.get('confirmPassword')
-
-  if (password.value !== confirmPassword.value) {
-    confirmPassword.setErrors({ passwordsMatch: true })
-  } else {
-    confirmPassword.setErrors(null)
-  }
-
-  return null
-}
-
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -27,7 +9,7 @@ function passwordsMatchValidator(form: { get: (arg0: string) => any; }) {
 export class LoginComponent implements OnInit {
 
   title: string = 'Moon Store';
-  registerForm!: FormGroup;
+  loginForm!: FormGroup;
 
   constructor(private fb: FormBuilder) { }
 
@@ -36,25 +18,22 @@ export class LoginComponent implements OnInit {
   }
 
   buildForm() {
-    this.registerForm = this.fb.group({
+    this.loginForm = this.fb.group({
       email: ['', [Validators.required, Validators.email]],
       password: ['', [Validators.required, Validators.minLength(4)]],
-      confirmPassword: ''
-    }, {
-      validators: passwordsMatchValidator
     })
   }
 
   register() {
-    console.log(this.registerForm.value)
+    console.log(this.loginForm.value)
   }
 
   get email() {
-    return this.registerForm.get('email');
+    return this.loginForm.get('email');
   }
 
   get password() {
-    return this.registerForm.get('password');
+    return this.loginForm.get('password');
   }
 
 }

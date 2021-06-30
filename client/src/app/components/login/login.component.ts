@@ -37,5 +37,3 @@ export class LoginComponent implements OnInit {
   }
 
 }
-
-// testing git commites

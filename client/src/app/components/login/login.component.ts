@@ -38,4 +38,4 @@ export class LoginComponent implements OnInit {
 
 }
 
-// testing git comites
+// testing git commites

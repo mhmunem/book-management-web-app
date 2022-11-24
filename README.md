@@ -1,19 +1,19 @@
 
-# Book Management Web App
+# Shopping Web App
 
 The Web Aplication has been produced using MongoDB, Express.js, Angular and Node.js.
 the following functionalities has been add to the web applcation:
 
-- Creating Book List
-- Reading Book List
-- Updating Book List
-- Deleting Book List
+- Creating Productes List
+- Reading Productes List
+- Updating Productes List
+- Deleting Productes List
 
 
 
 ## Installation
 
-Install Book Management Web App with github
+Install Shopping Web App with github
 
 Download source files from github
 source link: [https://github.com/mhmunem/book-management-web-app.git](https://github.com/mhmunem/book-management-web-app.git)
